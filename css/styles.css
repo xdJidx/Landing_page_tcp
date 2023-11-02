@@ -146,3 +146,12 @@ nav a {
     color: #fff;
     text-decoration: underline;
 }
+
+.holberton-text {
+    color: red;
+    transition: font-size 0.2s;
+}
+
+.holberton-text:hover {
+    font-size: 1.2em; /* Augmente la taille du texte au survol */
+}
