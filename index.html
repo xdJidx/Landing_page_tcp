@@ -6,7 +6,6 @@
     <title>Landing Page TCP</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script src="js/script.js"></script>
 </head>
 <body>
     <header>
@@ -14,19 +13,24 @@
             <h1>TCP GAMING</h1>
             <nav>
                 <a href="#section1">Tournament</a>
-                <a href="#section2">Concours</a>
-                <a href="#section3">Autres activités</a>
+                <a href="#section2">Contests</a>
+                <a href="#section3">Other Activities</a>
             </nav>
         </div>
-        <a href="your-app-link" class="btn">Accéder à l'application</a>
+        <a href="your-app-link" class="btn">Access the Application</a>
     </header>
+
+    <div class="description">
+        <h2>Presentation</h2>
+        <p>A website to enhance your gaming experience through automated features.</p>
+    </div>
 
     <section id="section1" class="features">
         <div class="feature feature-left">
             <img src="css/backgroundTournament.jpg" alt="Feature 1">
             <div class="feature-details">
                 <h2>Tournament</h2>
-                <p>Permettre la création de Tournoi</p>
+                <p>Enable the creation of tournaments and follow them in real-time.</p>
             </div>
         </div>
     </section>
@@ -34,8 +38,8 @@
     <section id="section2" class="features">
         <div class="feature feature-right">
             <div class="feature-details">
-                <h2>Concours</h2>
-                <p>Permettre la création de Concours</p>
+                <h2>Contests</h2>
+                <p>Enable the creation of contests in the theme of your choice: Photography, Drawing, or any other original creation.</p>
             </div>
             <img src="css/backgroundconcours.jpg" alt="Feature 2">
         </div>
@@ -43,31 +47,31 @@
 
     <section id="section3" class="features">
         <div class="feature feature-left">
-            <img src="css/backgroundautres.png" alt="Activités annexes">
+            <img src="css/rouletteDesBoss.gif" alt="Other Activities">
             <div class="feature-details">
-                <h2>Autres activités</h2>
-                <p>Liste des features annexes pour s'occuper ou relever des défis</p>
+                <h2>Other Activities</h2>
+                <p>Bring together various additional activities to challenge each other, like the boss roulette.</p>
             </div>
         </div>
     </section>
 
     <footer class="footer">
-
         <div>
             <h2>About us</h2>
         </div>
-
+        <br>
+        <br>
         <div class="allButton">
-            <img src="css/favico genshin.jpg" alt="TCP Gaming" onclick="showContent(1)">
+            <img id="image1" src="css/favico genshin.jpg" alt="TCP Gaming" onclick="showContent(1)">
 
-            <img src="css/jéjé dranreb.jpg" alt="Jérôme" onclick="showContent(2)">
+            <img id="image2" src="css/jéjé dranreb.jpg" alt="Jérôme" onclick="showContent(2)">
 
-            <img src="css/photo mathéo.jpg" alt="Mathéo" onclick="showContent(3)">
+            <img id="image3" src="css/photo mathéo.jpg" alt="Mathéo" onclick="showContent(3)">
         
             <div id="contentContainer">
                 <div id="content1">
                     <div class="social-icons">
-                        <a href="https://github.com/xdJidx/xdJidx.github.io"><i class="fab fa-github"></i>  Dépôt GitHub du Projet</a>
+                        <a href="https://github.com/xdJidx/xdJidx.github.io"><i class="fab fa-github"></i> GitHub Repository</a>
                     </div>
                 </div>
                 <div id="content2">
@@ -78,7 +82,10 @@
                         <a href="https://github.com/xdJidx" target="_blank">
                             <i class="fab fa-github"></i> GitHub
                         </a>
-                        <!-- Ajoutez d'autres icônes et liens sociaux au besoin -->
+                        <a href="https://twitter.com/bernardjerome59" target="_blank">
+                            <i class="fab fa-twitter"></i> Twitter
+                        </a>
+                        <!-- Add other social icons and links as needed -->
                     </div>
                 </div>
                 <div id="content3">
@@ -89,13 +96,15 @@
                         <a href="https://github.com/grem62" target="_blank">
                             <i class="fab fa-github"></i> GitHub
                         </a>
-                        <!-- Ajoutez d'autres icônes et liens sociaux au besoin -->
+                        <a href="https://twitter.com/bernardjerome59" target="_blank">
+                            <i class="fab fa-twitter"></i> Twitter
+                        </a>
+                        <!-- Add other social icons and links as needed -->
                     </div>
                 </div>
             </div>
-            <script src="script.js"></script>
+            <script src="js/script.js"></script>
         </div>
-
     </footer>
 </body>
 </html>

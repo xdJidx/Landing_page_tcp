@@ -11,3 +11,5 @@ function showContent(contentNumber) {
     images.forEach(image => image.classList.remove('active-image'));
     document.getElementById('image' + contentNumber).classList.add('active-image');
 }
+
+showContent(1); // Affiche le premier contenu par défaut
